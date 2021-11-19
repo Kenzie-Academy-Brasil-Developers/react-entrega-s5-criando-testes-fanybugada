@@ -13,7 +13,7 @@ const Search = () => {
       <div className="Search">
         <Input
           type="number"
-          placeholder="Insira o CEP"
+          placeholder="Insira o CEP aqui"
           onChange={(event) => setCepNumber(event.target.value)}
         />
         <Button
@@ -22,7 +22,7 @@ const Search = () => {
           onClick={() => handleSearch(cepNumber)}
         >
           <Icon name="search" />
-          Buscar pelo CEP
+          Buscar CEP
         </Button>
       </div>
     </>
